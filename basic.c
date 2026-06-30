@@ -1,6 +1,24 @@
+/*
 # include<stdio.h>
 
 int main() {
-    printf("hello world");
+    int age;
+    printf("enter age:");
+    scanf("%d", &age);
+    printf("age is : %d",age);
+    return 0;
+*/
+
+# include<stdio.h>
+
+float main() {
+    int a,b;
+    printf("enter value of a:");
+    scanf("%d", &a);
+
+    printf("enter value of b:");
+    scanf("%d", &b);
+    
+    printf("sum is : %d", a+b);
     return 0;
 }

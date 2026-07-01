@@ -25,6 +25,7 @@ float main() {
 }
 */ 
 
+/* area of sq
 # include<stdio.h>
 
 int main() {
@@ -33,4 +34,30 @@ int main() {
     scanf("%d", &side);
     printf("Area of sq. is : %d", side*side);
     return 0;
+*/
+
+/* area of circle 
+# include<stdio.h>
+
+int main(){
+    int r;
+    int pi = 3.14;
+    printf("Enter radius of circle : ");
+    scanf("%d", &r);
+    printf("Area of circle : %d", pi*r*r);
+    return 0;
 }
+*/
+
+# include<stdio.h>
+
+float main(){
+    float leng,breadth;
+    printf("enter length : ");
+    scanf("%f", &leng);
+    printf("enter breadth : ");
+    scanf("%f", &breadth);
+    printf("perimeter of rectangle is :%f ", 0.5 * leng * breadth);
+    return 0;
+}
+

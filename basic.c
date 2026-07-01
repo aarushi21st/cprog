@@ -9,6 +9,7 @@ int main() {
     return 0;
 */
 
+/* add
 # include<stdio.h>
 
 float main() {
@@ -18,7 +19,18 @@ float main() {
 
     printf("enter value of b:");
     scanf("%d", &b);
-    
+
     printf("sum is : %d", a+b);
+    return 0;
+}
+*/ 
+
+# include<stdio.h>
+
+int main() {
+    int side;
+    printf("enter side :");
+    scanf("%d", &side);
+    printf("Area of sq. is : %d", side*side);
     return 0;
 }

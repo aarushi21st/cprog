@@ -109,3 +109,20 @@ int main() {
 }
 */
 
+/* average of 3 no
+# include<stdio.h>
+
+float main(){
+    float a,b,c;
+    printf("enter no1 : ");
+    scanf("%f", &a);
+    printf("enter no2 : ");
+    scanf("%f", &b);
+    printf("enter no3 : ");
+    scanf("%f", &c);
+
+    printf("the averge is : %f", (a+b+c)/3);
+    return 0;
+}
+*/
+

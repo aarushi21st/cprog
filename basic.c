@@ -49,6 +49,7 @@ int main(){
 }
 */
 
+/* perimeter of rectangle
 # include<stdio.h>
 
 float main(){
@@ -60,4 +61,19 @@ float main(){
     printf("perimeter of rectangle is :%f ", 0.5 * leng * breadth);
     return 0;
 }
+*/
+
+/* divisible by 2
+# include<stdio.h>
+
+int main(){
+    int x;
+    printf("enter a no : ");
+    scanf("%d", &x);
+    printf("%d", x%2==0);
+    return 0;
+}
+*/
+
+
 

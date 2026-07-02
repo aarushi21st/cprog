@@ -75,5 +75,23 @@ int main(){
 }
 */
 
+/* condition to be checked
+# include<stdio.h>
 
+int main(){
+    int it_is_sunday = 1;
+    int it_is_snowing = 1;
+    printf("%d", it_is_sunday&&it_is_snowing);
+    return 0;
+}
+*/
 
+/* or operator 
+# include<stdio.h>
+
+int main() {
+    int raining = 0;
+    int monday = 1;
+    printf("%d", monday||raining);
+    return 0;
+}

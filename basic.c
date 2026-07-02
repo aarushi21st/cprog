@@ -126,3 +126,16 @@ float main(){
 }
 */
 
+/* wap to check if a given character is a digit ot not in c language 
+# include<stdio.h>
+
+float main(){
+    float c;
+    printf("enter a charater : ");
+    scanf("%f", &c);
+    printf("%f", c >= '0' && c<= '9');
+    return 0;
+
+}
+*/
+

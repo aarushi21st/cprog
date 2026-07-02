@@ -86,7 +86,7 @@ int main(){
 }
 */
 
-/* or operator 
+/* or_operator 
 # include<stdio.h>
 
 int main() {
@@ -95,3 +95,17 @@ int main() {
     printf("%d", monday||raining);
     return 0;
 }
+*/
+
+/* greater operation 
+# include<stdio.h>
+
+int main() {
+    int n;
+    printf("enter a no. :");
+    scanf("%d", &n);
+    printf("%d", 9<n<100);
+    return 0;
+}
+*/
+

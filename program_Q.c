@@ -38,6 +38,7 @@ float main(){
 }
     */
 
+/* uppr and lwr letter 
 # include<stdio.h>
 
 int main(){
@@ -51,5 +52,21 @@ int main(){
         printf("lowercase");
     }
 
+    return 0;
+}
+    */
+
+# include<stdio.h>
+
+int main(){
+    int num;
+    printf("Enter a number : ");
+    scanf("%d", &num);
+
+    if (num>=1){
+        printf("number is a natural no.");
+    } else{
+        printf("not a natural no.");
+    }
     return 0;
 }

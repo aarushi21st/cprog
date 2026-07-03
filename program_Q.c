@@ -85,6 +85,8 @@ int main(){
 }
     */
 
+/* loop_running_till_particular_no
+
 # include<stdio.h>
 
 int main(){
@@ -97,3 +99,5 @@ int main(){
     }
     return 0;
 }
+    */
+   

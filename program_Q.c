@@ -73,12 +73,27 @@ int main(){
 }
     */
 
+/* 1-10
 # include<stdio.h>
 
 int main(){
     int i;
     for (i=0;i<=10;i=i+1){
         printf("%d\n", i);
+    }
+    return 0;
+}
+    */
+
+# include<stdio.h>
+
+int main(){
+    float n,i;
+    printf("enter a num you want the loop to run till : ");
+    scanf("%f", &n);
+
+    for (i=0;i<=n;i++){
+        printf("%f \n", i);
     }
     return 0;
 }

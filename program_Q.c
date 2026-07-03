@@ -56,6 +56,7 @@ int main(){
 }
     */
 
+/* check natural no or not
 # include<stdio.h>
 
 int main(){
@@ -67,6 +68,17 @@ int main(){
         printf("number is a natural no.");
     } else{
         printf("not a natural no.");
+    }
+    return 0;
+}
+    */
+
+# include<stdio.h>
+
+int main(){
+    int i;
+    for (i=0;i<=10;i=i+1){
+        printf("%d ", i);
     }
     return 0;
 }

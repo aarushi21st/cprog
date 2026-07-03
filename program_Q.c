@@ -15,6 +15,7 @@ float main(){
 }
 */
 
+/* grading
 # include<stdio.h>
 
 float main(){
@@ -31,6 +32,23 @@ float main(){
         printf("A");
     } else{
         printf("A+");
+    }
+
+    return 0;
+}
+    */
+
+# include<stdio.h>
+
+int main(){
+    char word;
+    printf("Enter a word : ");
+    scanf("%C", &word);
+
+    if( word = 'ABCDEFGHIJKLMNOPQRTUVWXYZ'){
+        printf("uppercase");
+    } else{
+        printf("lowercase");
     }
 
     return 0;

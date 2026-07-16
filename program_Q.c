@@ -100,4 +100,22 @@ int main(){
     return 0;
 }
     */
-   
+
+/* add of no
+
+# include<stdio.h>
+
+int main(){
+    int n;
+    int add=0;
+
+    
+    for (n=1; n<=4; n++){
+         add=add+n;
+    }
+    printf("sum is %d", add);
+    return 0;
+}
+    */
+
+    

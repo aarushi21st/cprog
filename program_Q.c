@@ -118,4 +118,34 @@ int main(){
 }
     */
 
+/* DOUBT
+# include<stdio.h>
+
+int main(){
+    int n, i;
+    int mul=1;
+    printf("enter no : ", n);
+    scanf("%d", &n);
+
+    for (i=n;mul<=10;mul++){
+        mul=mul*n;
+    }
+    printf("multtiplication %d", mul);
+    return 0;
+
+}
+    */
+
+# include <stdio.h>
+
+int main(){
+    int n,i;
+    printf("enter a no:", n);
+    scanf("%d", &n);
+
+    for (i=1;i<=10;i++){
+        printf("%d \n", n*i);
+    }
     
+    return 0;
+}

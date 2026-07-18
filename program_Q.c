@@ -173,3 +173,22 @@ int main(){
 }
     */
 
+/* input no except multiple of 7
+# include<stdio.h>
+
+int main(){
+    int n;
+    for(;;){
+        printf("input num : ");
+        scanf("%d", &n);
+
+        if(n%7!=0){
+            printf("%d \n", n);
+        } else{
+            break;
+        }
+    }
+    return 0;
+}
+    */
+

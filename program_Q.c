@@ -152,3 +152,24 @@ int main(){
 }
     */
 
+/* take no until odd
+# include<stdio.h>
+
+int main(){
+    int n;
+    
+    for(;;){
+        printf("enter nos :");
+        scanf("%d",&n);
+
+        if(n%2!=0){
+            break;
+        } 
+        
+        printf("%d \n",n);
+        
+    }
+    return 0;
+}
+    */
+

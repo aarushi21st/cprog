@@ -206,3 +206,36 @@ int main(){
     return 0;
 }
     */
+
+/* print even num from 5 to 50
+# include<stdio.h>
+
+int main(){
+    int n;
+    for (n=5;n<=50;n++){
+        if(n%2!=0){
+            continue;
+        }
+    printf("%d \n",n);
+    }
+    return 0;
+}
+    */
+
+/* factorial
+#include<stdio.h>
+
+int main(){
+    int n,i;
+    int fact=1;
+    printf("enter a num : ");
+    scanf("%d", &n);
+
+    for(i=n;i>0;i--){
+        fact=fact*i;
+    }
+
+    printf("factorial : %d ", fact);
+    return 0;
+}
+    */

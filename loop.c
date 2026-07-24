@@ -256,7 +256,8 @@ int main(){
 }
     */
 
-# include<stdio.h>
+/*sum of no between 5 nd 50
+    # include<stdio.h>
 
 int main(){
     int i;
@@ -267,3 +268,5 @@ int main(){
     printf("%d", sum);
     return 0;
 }
+    */
+   

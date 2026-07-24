@@ -239,3 +239,21 @@ int main(){
     return 0;
 }
     */
+
+/* reverse table
+# include<stdio.h>
+
+int main(){
+    int n,i;
+    printf("enter a num : ", n);
+    scanf("%d", &n);
+
+    for(i=10;i>=1;i--){
+        printf("%d \n", n*i);
+    }
+    
+    return 0;
+}
+    */
+
+    

@@ -18,6 +18,8 @@ void bye(){
     printf("bye");
 }
     */
+
+
 /* indian == namaste
     #include<stdio.h>
     #include<string.h>
@@ -50,4 +52,24 @@ void bye(){
     }
         */
 
-    
+    /* addition
+    #include<stdio.h>
+
+    int add(int x, int y);
+
+    int main(){
+        int a,b;
+        printf("enter a no :");
+        scanf("%d", &a);
+        printf("enter a no: ");
+        scanf("%d", &b);
+
+        int s=add(a,b);
+        printf("the addition is : %d \n", s);
+        return 0;
+    }
+
+    int add(int x, int y){
+        return x+y;
+    }
+        */

@@ -76,7 +76,7 @@ void bye(){
 
 #include<stdio.h>
 
-void table(int n);
+void  table(int n);
 
 
 int main(){
@@ -85,11 +85,13 @@ int main(){
     scanf("%d", &n);
 
     table(n);
+    return 0;
 }
 
-int table(int n){
-    for(i=1; i<=10;i==){
-        printf(n*i);
+void table(int n){
+    int i;
+
+    for(i=1; i<=10; i++) {
+        printf("%d \n", n*i);
     }
-    
 }

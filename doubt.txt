@@ -1,0 +1,13 @@
+jb 1 baar already %d daal diya hai humne scanf pe tou wapis print pe kyu dalna?
+
+Syntax error
+
+loop ke ander printf daale aur loopke bhara tou kya frk hai for eg 
+ for(i=1;i<=3;i==){
+           printf("end");   
+ }
+
+prinf("hii");
+
+
+arg wo hota hai jo fucntion cl krne mai use hota hai nd parameter wo hota hai jo decleration mai use hota hai

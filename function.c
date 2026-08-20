@@ -74,6 +74,7 @@ void bye(){
     }
         */
 
+/* table
 #include<stdio.h>
 
 void  table(int n);
@@ -94,4 +95,24 @@ void table(int n){
     for(i=1; i<=10; i++) {
         printf("%d \n", n*i);
     }
+} */
+
+#include <stdio.h>
+#include <math.h>
+
+void two(int n);
+
+int main(){
+    int n;
+    printf("enter a num: ");
+    scanf("%d", &n);
+
+    two(n);
+    return 0;
+
 }
+
+void two(int n){
+    printf("sq is :%f ", pow(n,2));
+}
+

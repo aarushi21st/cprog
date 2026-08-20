@@ -73,3 +73,23 @@ void bye(){
         return x+y;
     }
         */
+
+#include<stdio.h>
+
+void table(int n);
+
+
+int main(){
+    int n;
+    printf("enter a no. :");
+    scanf("%d", &n);
+
+    table(n);
+}
+
+int table(int n){
+    for(i=1; i<=10;i==){
+        printf(n*i);
+    }
+    
+}

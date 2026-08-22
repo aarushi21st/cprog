@@ -117,6 +117,7 @@ void two(int n){
     printf("sq is :%.0f ", pow(n,2));
 }*/
 
+/* area
 # include<stdio.h>
 
 float areasq(float n);
@@ -140,3 +141,23 @@ float areacirc(float num){
 float arearect(float a, float b){
     printf("%f", a*b);
 }
+    */
+
+/* recursion sum
+# include<stdio.h>
+int sum(int n);
+
+int main(){
+    printf("sum is : %d ", sum(5));
+    return 0;
+}
+
+int sum(int n){
+    if(n==1){
+        return 1;
+    }
+
+    int sumn = sum(n-1);
+    int sumn1 = sumn + n;
+}
+    /*

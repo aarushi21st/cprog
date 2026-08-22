@@ -97,6 +97,7 @@ void table(int n){
     }
 } */
 
+/*
 #include <stdio.h>
 #include <math.h>
 
@@ -113,6 +114,29 @@ int main(){
 }
 
 void two(int n){
-    printf("sq is :%f ", pow(n,2));
+    printf("sq is :%.0f ", pow(n,2));
+}*/
+
+# include<stdio.h>
+
+float areasq(float n);
+float areacirc(float num);
+float arearect(float a, float b);
+
+float main(){
+    float n;
+    n = 2;
+    areasq(n);
 }
 
+float areasq(float n){
+    printf("%f", n*n);
+}
+
+float areacirc(float num){
+    printf("%f", 3.16*num*num);
+}
+
+float arearect(float a, float b){
+    printf("%f", a*b);
+}

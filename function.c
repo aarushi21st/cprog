@@ -140,10 +140,10 @@ float areacirc(float num){
 
 float arearect(float a, float b){
     printf("%f", a*b);
-}
-    */
+}*/
 
-/* recursion sum
+
+/* add
 # include<stdio.h>
 int sum(int n);
 
@@ -160,4 +160,28 @@ int sum(int n){
     int sumn = sum(n-1);
     int sumn1 = sumn + n;
 }
-    /*
+    */
+
+/* factorial
+# include<stdio.h>
+int fact(int n);
+
+int main(){
+    printf("fact : %d", fact(4));
+    return 0;
+}
+
+int fact(int n){
+    if(n==1){
+        return 1;
+    }
+    int fact1 = fact(n-1);
+    int fact0 = fact1*n;
+    return fact0;
+}*/
+
+#
+
+
+
+

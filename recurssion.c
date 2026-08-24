@@ -35,8 +35,39 @@ int fact(int n){
     return fact0;
 }*/
 
+/* temp
 # include<stdio.h>
 
-float fahr(float n);
+float fahr(float cel);
 
-float main(){}
+int main(){
+    float f = fahr(0);
+    printf("temp :%f ", f);
+    return 0;
+}
+
+float fahr(float cel){
+    float f = cel * (9/5)+32; 
+    return f;
+}
+    */
+# include<stdio.h>
+
+float percentage(float m, float a, float c);
+
+int main(){
+    float m,a,c;
+    printf("enter math no:");
+    scanf("%f", &m);
+    printf("enter sci no :");
+    scanf("%f", &a);
+    printf("enter sank no : ");
+    scanf("%f", &c);
+
+}
+
+float percentage(float m, float a, float c){
+    float per = ((m+a+c)/3)*100;
+
+
+}

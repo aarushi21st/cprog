@@ -51,6 +51,8 @@ float fahr(float cel){
     return f;
 }
     */
+
+/* percentage
 # include<stdio.h>
 
 float percentage(float m, float a, float c);
@@ -64,10 +66,40 @@ int main(){
     printf("enter sank no : ");
     scanf("%f", &c);
 
+    printf("percentage : %f ", percentage(m,a,c));
+    return 0;
+
 }
 
 float percentage(float m, float a, float c){
     float per = ((m+a+c)/3)*100;
+    return per;
 
 
 }
+    */
+/* fibonacci
+# include<stdio.h>
+
+int fib(int n);
+
+int main(){
+    fib(3);
+    return 0;
+}
+
+int fib(int n){
+    if(n==0){
+        return 0;
+    }
+    if(n==1){
+        return 1;
+    }
+    int f = fib(n-1) + fib(n-2);
+    printf("fib of %d : %d \n", n,f);
+    return f;
+}
+    */
+
+
+

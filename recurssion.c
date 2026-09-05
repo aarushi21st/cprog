@@ -101,5 +101,37 @@ int fib(int n){
 }
     */
 
+/*addition
 
+#include<stdio.h>
+
+int add(int n1, int n2);
+
+int main(){
+    int n1,n2;
+    printf("enter a no : ");
+    scanf("%d", &n1);
+
+    printf("enter a no : ");
+    scanf("%d", &n2);
+
+    printf("addition : %d", add(n1, n2));
+    return 0;
+}
+
+int add(int n1, int n2){
+    int c;
+    c = n1 + n2;
+    return c;
+}
+    */
+
+# include<stdio.h>
+# include<math.h>
+
+int main(){
+    int n;
+    printf("enter a num :");
+    scanf("")
+}
 

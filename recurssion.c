@@ -126,12 +126,24 @@ int add(int n1, int n2){
 }
     */
 
+/* root
 # include<stdio.h>
 # include<math.h>
 
-int main(){
-    int n;
+float sq(float n);
+
+float main(){
+    float n;
     printf("enter a num :");
-    scanf("")
+    scanf("%f", &n);
+
+    printf("square root of num : %f", sq(n));
 }
+
+float sq(float n){
+    return sqrt(n);
+}
+    */
+
+    
 

@@ -145,5 +145,29 @@ float sq(float n){
 }
     */
 
+/* hot & cold
+# include<stdio.h>
+
+int temp(int n);
+
+int main(){
+    int n;
+    printf("enter temperature : ");
+    scanf("%d", &n);
+
+    temp(n);
+}
+
+int temp(int n){
+    if (n<100){
+        printf("cold");
+    }
+    else{
+        printf("hot");
+    }
+    return 0;
+}
+    */ 
+
     
 

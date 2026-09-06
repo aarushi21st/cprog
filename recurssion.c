@@ -169,5 +169,30 @@ int temp(int n){
 }
     */ 
 
-    
+# include<stdio.h>
+
+int pow(int n, int exp);
+
+int main(){
+    int n,exp;
+    printf("enter a num:");
+    scanf("%d", &n);
+
+    printf("enter a exponent:");
+    scanf("%d", &exp);
+
+    printf("pow : %d", pow(n,exp));
+}
+
+int pow(int n, int exp){
+    int i,r;
+    for (i=1; i<=exp; i++){
+        r=r*exp;
+    }
+
+    printf("%d", r);
+    return 0;
+}
+
+
 

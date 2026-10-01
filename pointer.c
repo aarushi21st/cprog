@@ -58,3 +58,13 @@ int main(){
     printf("*ptr = %d\n", *ptr);
 }
     */
+# include <stdio.h>
+
+int main(){
+    int i = 2;
+    int *ptr = &i;
+    int **pptr = &ptr;
+
+    printf("%d \n", *ptr);
+    printf("%d", **pptr);
+}
